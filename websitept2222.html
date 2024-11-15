@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+
+        .parent {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 100%;
+            height: 100px;
+            background-color: lavender;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6c5ce7;
+            margin-top: 20px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #2d3436;
+        }
+
+        .nav {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .nav div {
+            display: inline-block;
+            background-color: #74b9ff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        .nav div:hover {
+            background-color: #0984e3;
+            color: white;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            flex-direction: column;  
+            align-items: center;     
+        }
+
+        .product {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height:300px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .product div {
+            font-weight: bold;
+            color: #fdcb6e;
+            margin-bottom: 5px;
+        }
+
+        .product p {
+            color: #2d3436;
+            font-size: 18px;
+        }
+
+        .buttonn {
+            margin-top: 20px; 
+            text-align: center; 
+        }
+
+        button {
+            background-color: #00b894;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px; 
+            width: 200px;    
+            height:50px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #00a67d;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>RASAKAN NIKMATNYA PISANG DALAM SETIAP GULUNGAN!</h1>
+    </div>
+
+    <div class="nav">
+        <div>Home</div>
+        <div>Produk</div>
+        <div>Kontak</div>
+    </div>
+
+    <h3>S.San</h3>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://i.ytimg.com/vi/GMCWfxSM48Q/sddefault.jpg" alt="Coklat Cake">
+            <div>🍫 Coklat</div>
+            <p>Rp 9.000</p>
+        </div>
+
+        <div class="product">
+            <img src="https://img-global.cpcdn.com/recipes/55f77b15ea064fca/400x400cq70/photo.jpg" alt="Strawberry Cake">
+            <div>🍓 Strawberry</div>
+            <p>Rp 9.000</p>
+        </div>
+
+        <div class="product">
+            <img src="https://down-id.img.susercontent.com/file/d0e26c47d991ebfbab3d5fd8a12180c0" alt="Mix Cake">
+            <div>🍫🍓 Mix</div>
+            <p>Rp 9.000</p>
+        </div>
+
+        <div class="buttonn">
+            <button> 📱+62 815-4568-9318</button>
+        </div>
+    </div>
+</body>
+</html>
